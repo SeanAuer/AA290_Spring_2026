@@ -1,1 +1,4 @@
 .venv
+.env
+
+RCAIDE_LEADS/

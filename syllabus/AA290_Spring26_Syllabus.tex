@@ -1,0 +1,68 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.65in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0pt,topsep=0pt,parsep=0pt}
+\definecolor{stanfordred}{HTML}{8C1515}
+\titleformat{\section}{\large\bfseries\color{stanfordred}}{}{0em}{}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+\newcommand{\labelcell}[1]{\textbf{#1}}
+\pagestyle{empty}
+
+\begin{document}
+
+{\LARGE\bfseries AA 290: Problems in Aero/Astro}\hfill {\large Spring 2026}
+
+{\bfseries Independent Study / Research Syllabus}
+
+\vspace{0.4em}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{1.45in}X@{}}
+Instructor & J. Alonso \\
+Course dates & March 30, 2026 -- June 3, 2026 \\
+Grading basis & Letter (ABCD/NP) \\
+Meeting cadence & Weekly laboratory meetings with the Aerospace Design Laboratory, most Thursdays at 4:00 PM PT, except when the instructor is traveling or otherwise unavailable \\
+Final deliverable & Final report documenting the aircraft design study, methods, assumptions, results, and conclusions \\
+\end{tabularx}
+
+\section*{Course Description}
+Experimental, theoretical, or computational investigation in a field of special interest. This independent study is intended to develop the student's understanding of what constitutes a research problem and the skills needed to successfully define, approach, and conduct research, with a fundamental focus on performing vehicle design and computational experimentation. Furthermore, engineering design is an integral part of this study, allowing it to satisfy the departmental design requirement.
+
+This independent study will emphasize practical conceptual aircraft design methods, disciplined use of publicly available technical data, and the formulation of engineering assumptions suitable for an early-phase research and design environment. Particular emphasis will be placed on connecting aerodynamic, propulsion, and mission-level considerations into a coherent conceptual design workflow.
+
+\section*{Statement of Work}
+The research objective for this quarter is the \textbf{conceptual design of a Part 25 transonic transport aircraft utilizing an open-rotor propulsion system} within the \textbf{SUAVE/RCAIDE} Python-based framework. The work will focus on building a credible single-aisle concept competitive with the Boeing 737-800 in \textbf{fuel burn per passenger seat per nautical mile}, using publicly available references, open literature, and reasonable first-order engineering assumptions to inform the aircraft configuration and analysis. Specific areas of investigation are expected to include:
+\begin{itemize}
+    \item Aircraft sizing and mission assumptions,
+    \item Open-rotor / CFM RISE-inspired propulsion sizing,
+    \item Propulsion--airframe integration losses and associated performance penalties, and
+    \item Comparative assessment against a conventional single-aisle transport baseline.
+    \item Identification of key sensitivities, uncertainties, and technology assumptions that most strongly influence concept viability,
+    \item Development of a repeatable Python-based analysis workflow within the SUAVE/RCAIDE environment
+    \item Documentation of results into a research-quality conceptual design narrative appropriate for academic review.
+\end{itemize}
+
+\section*{Expected Outputs and Evaluation}
+The course grade will be based on a \textbf{final written report} summarizing the design problem, literature basis, modeling assumptions, methodology, analysis workflow, and resulting aircraft performance. The final report should document the rationale for major configuration and sizing choices, the basis for propulsion and integration assumptions, and the extent to which the resulting concept appears competitive against the selected benchmark. Emphasis will be placed on technical rigor, traceability of assumptions, clarity of engineering judgment, completeness of the analytical process, and the quality of the final synthesis.
+
+\section*{Course Texts / References}
+\begin{itemize}
+    \item Daniel P. Raymer, \emph{Aircraft Design: A Conceptual Approach}.
+    \item Jan Roskam, \emph{Airplane Design}, Vols. I--VIII.
+    \item John D. Anderson, Jr., \emph{Computational Fluid Dynamics: The Basics with Applications}.
+    \item H. T. Huynh, \emph{Aerodynamics: A Computational Introduction}.
+    \item Joaquim R. R. A. Martins and Andrew Ning, \emph{Engineering Design Optimization}.
+\end{itemize}
+
+\end{document}
