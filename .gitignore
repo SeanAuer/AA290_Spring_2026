@@ -1,4 +1,8 @@
 .venv
 .env
 
-RCAIDE_LEADS/
+# Literature / papers
+literature/
+
+
+
