@@ -1,0 +1,60 @@
+Aircraft Performance Comparison Tool
+Comparing Baseline Turbofan vs Open Fan Aircraft
+
+==================================================
+PERFORMANCE COMPARISON
+================================================================================
+Metric                    Turbofan        Open Fan        Difference      % Diff
+--------------------------------------------------------------------------------
+total_fuel_burn_kg        10754.606       11301.638       547.033         5.09
+total_distance_km         2692.698        2690.894        -1.803          -0.07
+total_time_hours          3.533           3.526           -0.007          -0.21
+fuel_efficiency_kg_per_km 3.994           4.200           0.206           5.16
+
+================================================================================
+DETAILED BREAKDOWN
+================================================================================
+
+ENGINE DESIGN PARAMETERS:
+----------------------------------------
+Bypass Ratio:        Turbofan 5.4 | Open Fan 36.0
+Fan Pressure Ratio:  Turbofan 1.70 | Open Fan 1.10
+Fan Efficiency:      Turbofan 0.930 | Open Fan 0.720
+
+WEIGHT ANALYSIS:
+----------------------------------------
+MTOW:                Turbofan 79016 kg | Open Fan 79016 kg
+MTOW Difference:     0 kg (+0.0%)
+OEW:                 Turbofan 62746 kg | Open Fan 68278 kg
+OEW Difference:      5531 kg (+8.8%) - Dorsey integration penalties
+
+PERFORMANCE DRIVERS:
+----------------------------------------
+• Open Fan burns 5.2% MORE fuel per km
+• Primary causes:
+  - Fan efficiency penalty: 22.6% (includes Dorsey integration losses)
+  - Nacelle drag penalty: 40% increase (Dorsey propeller slipstream effects)
+  - Weight penalty: 7.0% of MTOW (noise shielding + structural)
+  - Architecture mismatch: High bypass ratio (36) optimized for lower speeds
+
+Results saved to: C:\Users\bw821f\Documents\Stanford University\Spring 2026\AA290_Spring_2026\airplane_design\performance_comparison_results.csv
+
+================================================================================
+SUMMARY
+================================================================================
+Open Fan aircraft burns 5.2% MORE fuel per km than Turbofan
+(Open Fan is LESS fuel efficient)
+
+This aligns with Dorsey's findings that open rotors face significant
+integration penalties on high-speed cruise missions like this one.
+Open rotors are better suited for:
+• Lower cruise speeds (Mach 0.6-0.7 vs 0.78)
+• Shorter range missions (500-1500 nm vs 1000+ nm)
+• Regional aircraft with high passenger density
+
+Note: Both aircraft fly identical mission profiles.
+Small differences in distance/time are numerical precision effects.
+
+Comparison complete!
+Aircraft Performance Comparison Tool
+Comparing Baseline Turbofan vs Open Fan Aircraft

@@ -1,0 +1,20 @@
+Aircraft Performance Comparison Tool
+Comparing Baseline Turbofan vs Open Fan Aircraft
+
+==================================================
+Running Baseline Turbofan simulation...
+==================================================
+Changed working directory to: C:\Users\bw821f\Documents\Stanford University\Spring 2026\AA290_Spring_2026\baseline_airplane\mission_simulation
+
+Performing Weights Analysis
+--------------------------------------------------------
+Propulsion Architecture: Conventional
+Aircraft Type          : Transport
+Method                 : FLOPS
+Aircraft operating empty weight will be overwritten
+Aircraft center of gravity location will be overwritten
+Aircraft moment of intertia tensor will be overwritten
+
+ Mission Solver Initiated
+
+ Solving Takeoff segment.
