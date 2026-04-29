@@ -1131,7 +1131,6 @@ def main():
 
     # Step 6 plot results 
     plot_mission(results)
-    plt.show()
 
 if __name__ == '__main__':
     main()
